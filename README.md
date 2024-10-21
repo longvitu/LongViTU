@@ -1,16 +1,22 @@
-## Hi there 👋
+LongViTU
+===
 
-<!--
-**longvitu/LongViTU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Video-LLaVA
+```bash
+cd Video-LLaVA
+bash finetune.sh
+bash inference.sh
+```
 
-Here are some ideas to get you started:
+## LLaMA-VID
+```bash
+cd LLaMA-VID
+bash finetune.sh
+bash inference.sh
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Thanks for the codebase of [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) and [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID).
+
+## License
+- Code: [Apache](LICENSE)
+- Data: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
