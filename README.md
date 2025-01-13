@@ -1,6 +1,3 @@
-LongViTU
-===
-
 ## Video-LLaVA
 ```bash
 cd Video-LLaVA
@@ -15,7 +12,16 @@ bash finetune.sh
 bash inference.sh
 ```
 
-Thanks for the codebase of [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) and [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID).
+## LongVU
+```bash
+cd LongVU
+bash train_longvitu_qwen.sh
+python scripts/consolidate_checkpoint.py --model_path output/cambrian_qwen2_7b_longvitu_train_101k/checkpoint-xxxx
+bash eval_egoschema&videomme.sh
+```
+
+## Acknowledgement
+Thanks for the codebase of [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) and [LongVU](https://github.com/Vision-CAIR/LongVU).
 
 ## License
 - Code: [Apache](LICENSE)
